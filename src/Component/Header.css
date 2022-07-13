@@ -1,0 +1,262 @@
+.header-img-css {
+    position: fixed;
+    /* background: linear-gradient( rgba(10, 0, 0, 0.214), rgba(0, 0, 0, 0.214)), url(../Images/vipin.jpeg); */
+    background: linear-gradient(rgba(10, 0, 0, 0.159), rgba(0, 0, 0, 0.374)), url(../Images/vipin2.jpeg);
+    width: 37%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* .header-img-css img {
+    position: fixed;
+    display: block;
+    width: 37%;
+    height: 105vh;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -15px;
+} */
+
+
+.container2 {
+    width: 63%;
+    background-color: #191919;
+    float: right;
+    padding: 50px;
+}
+
+.Navbar {
+    position: fixed !important;
+    text-align: center;
+    padding: 48px;
+    margin-left: -50px !important;
+    top: 0px;
+    background-color: #191919;
+    font-size: 15px;
+    width: 63%;
+    z-index: 6;
+}
+
+.Navbar li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px;
+
+}
+
+.Navbar li a:hover {
+    border-bottom: 2px solid #F68338;
+}
+
+.Navbar li a {
+    color: #888888;
+    text-decoration: none;
+}
+
+
+/* For Tab View  */
+
+@media (max-width: 900px) {
+
+    .container2 .Navbar {
+        display: none;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 80vh;
+        position: static;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .footer-css {
+        display: none;
+    }
+
+    .main-section,
+    .resume,
+    .portfolio,
+    .contact {
+        margin-top: 0px !important;
+    }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+
+
+
+    /* hamburger-menu  */
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .hamburger-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+
+    .Navbar {
+        position: relative;
+        text-align: center;
+        top: 0px;
+        right: 0;
+        transform: translateX(100%);
+        transition: 0.6s ease-in-out;
+        background-color: #191919;
+        font-size: 15px;
+        z-index: 6;
+        height: 100vh;
+    }
+
+
+    .menu-items li {
+        margin-bottom: 1.2rem;
+    }
+
+    /*taki checkbox check hone per items show hone lage*/
+    .hamburger-menu input[type="checkbox"]:checked~.menu-items {
+        transform: translateX(0);
+
+    }
+
+
+    .hamegurger-lines .line1 {
+        transform-origin: 10% 0%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .hamegurger-lines .line3 {
+        transform-origin: 20% 100%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .hamburger-menu input[type="checkbox"]:checked~.hamegurger-lines .line1 {
+        transform: rotate(45deg);
+    }
+
+    .hamburger-menu input[type="checkbox"]:checked~.hamegurger-lines .line2 {
+        display: none;
+    }
+
+    .hamburger-menu input[type="checkbox"]:checked~.hamegurger-lines .line3 {
+        transform: rotate(-45deg);
+    }
+
+
+    .hamburger-menu input[type="checkbox"] {
+        display: block;
+        position: absolute;
+        right: 4px;
+        top: 5px;
+        height: 34px;
+        width: 37px;
+        z-index: 10;
+        opacity: 0;
+    }
+
+    .hamburger-menu .hamegurger-lines {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        height: 34px;
+        width: 34px;
+        padding: 8px;
+        background-color: #F68338;
+        border-radius: 50%;
+        z-index: 8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .hamegurger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        background-color: #191919;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .container2 .Navbar {
+        display: block;
+    }
+
+    .Navbar li {
+        display: block;
+    }
+
+}
+
+/* for phone view  */
+
+@media (max-width: 760px) {
+
+    .container1 {
+        height: 80vh;
+    }
+
+    .container2 {
+        padding: 50px 20px;
+    }
+
+    .name-about {
+        flex-direction: column !important;
+    }
+
+    .box-right,
+    .box-left {
+        width: auto !important;
+    }
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5 {
+        width: auto !important;
+        margin-bottom: 18% !important;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+
+
+    .contact-form input,
+    textarea {
+        width: 100% !important;
+    }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 900px){
+
+
+    .header-img-css {
+        background: linear-gradient(rgba(10, 0, 0, 0.159), rgba(0, 0, 0, 0.374)), url(../Images/vipin2.jpeg);
+        background-position: top;
+        background-size: cover;
+    }
+}
