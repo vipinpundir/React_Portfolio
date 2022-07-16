@@ -11,36 +11,46 @@ const Project_com = () => {
             <div className="projects">
                 <div className="project1">
                     <div className='project-text'>
-                        <h2>Project 01</h2>
+                       <a href='https://vipinfoodweb.netlify.app'>
+                       <h2>Project 01</h2>
                         <h4>Restaurant Web</h4>
+                        </a> 
                     </div>
                 </div>
                 <div className="project2">
                     <div className='project-text'>
+                        <a href='https://vipintravelweb.netlify.app'>
                         <h2>Project 02</h2>
                         <h4>Travelling Web</h4>
+                        </a>
                     </div>
                 </div>
 
 
                 <div className="project3">
                     <div className='project-text'>
+                        <a href='https://coerlibrary.netlify.app'>
                         <h2>Project 03</h2>
                         <h4>Digital Library Web</h4>
+                        </a>
                     </div>
                 </div>
                 <div className="project4">
                     <div className='project-text'>
+                        <a href='https://vipinbusinessweb.netlify.app'>
                         <h2>Project 04</h2>
                         <h4>Business Web</h4>
+                        </a>
                     </div>
                 </div>
 
 
                 <div className="project5">
                     <div className='project-text'>
+                        <a href='https://vipinexpense.netlify.app'>
                         <h2>Project 05</h2>
                         <h4>Expense Tracker Web</h4>
+                        </a>
                     </div>
                 </div>
                 {/* <div className="project6">

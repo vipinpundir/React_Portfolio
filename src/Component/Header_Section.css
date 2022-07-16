@@ -46,7 +46,7 @@ html{
     margin-bottom: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .name-about p {
@@ -64,10 +64,10 @@ html{
 .name-about-right {
     display: inline-block;
 }
-
+} */
 .name-about-right {
     margin-left: 150px;
-} */
+}
 
 /* .btn button{  
     display: block;

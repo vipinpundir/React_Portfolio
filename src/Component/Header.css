@@ -221,6 +221,9 @@
     .box-left {
         width: auto !important;
     }
+    .name-about-right {
+        margin-left: 0px !important;
+    }
 
     .project1,
     .project2,

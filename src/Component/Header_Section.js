@@ -13,7 +13,7 @@ const Header_Section = () => {
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
                 <h1 className="main-heading" >VIPIN PUNDIR</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque suscipit, fugiat laborum at perferendis temporibus harum quasi veniam, ipsa doloribus voluptates eveniet delectus! Accusantium aspernatur incidunt officiis dolores quas ex, necessitatibus illo architecto autem minima voluptate nam tenetur quia blanditiis numquam sed debitis earum distinctio repellendus voluptatum saepe possimus dignissimos cum! Distinctio aspernatur excepturi accusantium quisquam iure iste ex hic voluptates rem minus obcaecati recusandae ipsa eius in minima dolores reiciendis ab sequi vitae doloremque dolor, repellat atque aliquam. Delectus nam deleniti debitis culpa quasi, suscipit a ?</p>
+                <p>Hi, My name is vipin Pundir. I am a Front-End developer,and etiam accumsan scelerisque rhoncus. Nulla quis laorey velit drana. Pelteqle quisu velleopha retra congue. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum nolan sithe cons eturadip liscing elit. Donec hendrerit sapien coner the consequat erose viverra at. Quality quis laorey velit. Pelteqle quisu velleopha retra the congue.</p>
 
             </div>
 

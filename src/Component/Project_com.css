@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.projects a{
+    text-decoration: none;
+}
 .project1,
 .project2,
 .project3,
@@ -37,7 +39,7 @@
     opacity: 0;
     height: 180px;
     background-color: #f68438c3;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     padding: 20px 0px 0px 10px;
 }
 
