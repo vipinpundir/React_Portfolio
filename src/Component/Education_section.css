@@ -2,6 +2,7 @@
     font-size: 15px;
     line-height: 25px;
     color: #888888;
+    min-height: 100vh;
 }
 
 .education_section{

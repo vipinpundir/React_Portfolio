@@ -50,6 +50,7 @@
 
 .Navbar li a:hover {
     border-bottom: 2px solid #F68338;
+   
 }
 
 .Navbar li a {
@@ -132,6 +133,9 @@
 
     }
 
+    .menu-items :any-link:hover{
+         color:#F68338; /* alter clicked color changed in mobile */
+    }
 
     .hamegurger-lines .line1 {
         transform-origin: 10% 0%;

@@ -4,6 +4,7 @@ import icon1 from '../Images/web-design.png';
 import icon2 from '../Images/developer.png';
 import icon3 from '../Images/photograph.png';
 import icon4 from '../Images/responsive-website.png';
+import {  Link } from "react-router-dom";
 
 const Header_Section = () => {
     return (
@@ -13,8 +14,7 @@ const Header_Section = () => {
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
                 <h1 className="main-heading" >VIPIN PUNDIR</h1>
-                <p>Hi, My name is vipin Pundir. I am a Front-End developer,and etiam accumsan scelerisque rhoncus. Nulla quis laorey velit drana. Pelteqle quisu velleopha retra congue. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum nolan sithe cons eturadip liscing elit. Donec hendrerit sapien coner the consequat erose viverra at. Quality quis laorey velit. Pelteqle quisu velleopha retra the congue.</p>
-
+                <p>Hi, My name is vipin Pundir. I am a web developer mainly front-end developer.  I have worked in preneurship for two months as a front-end developer and I'm pre final year B.Tech(CSE) student at college of engineering roorkee. </p>
             </div>
 
             <div class="name-about">
@@ -32,7 +32,10 @@ const Header_Section = () => {
 
             </div>
 
-            <div class="btn"><button type="submit">Hire Me</button></div>
+            {/* <div class="btn">  <button type="submit" >Hire Me</button>  </div> */}
+
+            <div class="btn">  <button type="submit" >  <Link to="/Contact" >Hire Me</Link> </button>  </div>
+            
 
             <hr className="hr_tag" />
 

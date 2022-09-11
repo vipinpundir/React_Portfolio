@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
 
                 <div class="footer-2-2">
-                     <a href=""> <h6>Download CV</h6> </a>
+                    <a  target='blank' href="https://drive.google.com/drive/folders/1CRGX99KMxNVtvz0n2aVMahnI-l9B1TPn?usp=sharing"> <h6>Download CV</h6> </a>
                 </div>
 
             </div>

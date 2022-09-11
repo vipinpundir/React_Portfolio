@@ -13,16 +13,21 @@ const Contact_com = () => {
             <p className='heading-p'>Email : <span>vipinpundir29@gmail.com</span> </p>
             <p className='heading-p'>Address : <span>Roorkee, Uttarakhand, India , Pin Code:-247667</span> </p>
             <hr className='hr_tag'></hr>
-                <p className='heading-p'>Get in touch</p>
-            <div className='contact-form'>
-                <input type="text" placeholder='Your Name' required ></input>
-                <input type="Email" placeholder='Your Email' required ></input> <br></br>
-                <input type="PhoneNumber" placeholder='Your Number' required ></input>
-                <input type="text" placeholder='Subject' required ></input>
-                <textarea placeholder='Message' required></textarea>
-            </div>
+            <p className='heading-p'>Get in touch</p>
 
-            <div class="btn"><button type="submit">Send Message</button></div>
+            <form  action="https://formspree.io/f/xzbwdonz" method="POST" >
+
+                <div className='contact-form' >
+                    <input type="text" name='Name' placeholder='Full Name' required ></input>
+                    <input type="Email" name='Email' placeholder='Email' required ></input> <br></br>
+                    <input type="Number" name='Contact_Number' placeholder='Contact Number' required ></input>
+                    <input type="text" name='Subject' placeholder='Subject' required ></input>
+                    <textarea name='Message' placeholder='Message' required></textarea>
+                </div>
+
+                <div class="btn"><button type="submit">Send Message</button></div>
+
+            </form>
 
             <hr className='hr_tag'></hr>
 

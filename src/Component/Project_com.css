@@ -1,3 +1,8 @@
+.project_com{
+    min-height: 100vh;
+
+}
+
 .projects{
     display: flex;
     flex-wrap: wrap;

@@ -14,7 +14,7 @@ const Education_section = () => {
                 <div className="education_section">
                     <h3 className="main-heading-Edu">FRONTEND DEVELOPER</h3>
                     <p>Preneurship ( Internship ) </p>
-                    <p>April 2022 - Present (3 months)</p>
+                    <p>May 2022 - July 2022 (3 months)</p>
                     <p>work from home</p>
                 </div>
 
