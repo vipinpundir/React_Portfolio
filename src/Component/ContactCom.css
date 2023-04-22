@@ -1,4 +1,4 @@
-.contact_com{
+contact_com{
     min-height: 100vh;
 }
 
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
 .contact-form textarea:focus-within{
     border-bottom: 1px solid #F68338;
@@ -29,6 +29,10 @@
 }
 .contact-form input,textarea{
     border: none;
+    border-bottom: 1px solid #8888881a;
+    padding: 15px 0px;
+    background-color: #191919;
+    margin: 10px;
     width: 40%;
     /* width: auto; */
     color: #888;
