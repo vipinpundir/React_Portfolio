@@ -1,0 +1,22 @@
+.EducationSection_css {
+    font-size: 15px;
+    line-height: 25px;
+    color: #888888;
+    min-height: 100vh;
+}
+
+.EducationSection{
+    margin-bottom: 50px;
+}
+
+.main-heading-Edu{    
+    letter-spacing: 2px ;
+    color: #ffffff;
+}
+
+.EducationSection_container{
+    border-left: 1px solid #222;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+

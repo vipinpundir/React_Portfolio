@@ -1,6 +1,5 @@
 .header-img-css {
     position: fixed;
-    /* background: linear-gradient( rgba(10, 0, 0, 0.214), rgba(0, 0, 0, 0.214)), url(../Images/vipin.jpeg); */
     background: linear-gradient(rgba(10, 0, 0, 0.159), rgba(0, 0, 0, 0.374)), url(../Images/vipin2.jpeg);
     width: 37%;
     height: 100vh;
@@ -9,17 +8,6 @@
     background-position: center center;
     background-size: cover;
 }
-
-/* .header-img-css img {
-    position: fixed;
-    display: block;
-    width: 37%;
-    height: 105vh;
-    object-fit: cover;
-    object-position: center;
-    margin-top: -15px;
-} */
-
 
 .container2 {
     width: 63%;
@@ -128,9 +116,8 @@
     }
 
     /*taki checkbox check hone per items show hone lage*/
-    .hamburger-menu input[type="checkbox"]:checked~.menu-items {
+    .hamburger-menu input[type="checkbox"]:checked ~.menu-items {
         transform: translateX(0);
-
     }
 
     .menu-items :any-link:hover{
@@ -212,6 +199,7 @@
     .container1 {
         height: 80vh;
     }
+  
 
     .container2 {
         padding: 50px 20px;
@@ -262,7 +250,6 @@
 
 
     .header-img-css {
-        background: linear-gradient(rgba(10, 0, 0, 0.159), rgba(0, 0, 0, 0.374)), url(../Images/vipin2.jpeg);
         background-position: top;
         background-size: cover;
     }

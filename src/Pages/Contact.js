@@ -1,12 +1,12 @@
 import React from 'react';
 import './Contact.css';
-import Contact_com from '../Component/Contact_com';
+import ContactCom from '../Component/ContactCom';
 
 const Contact = () => {
     return (
 
         <div className='contact'>
-            <Contact_com></Contact_com>
+            <ContactCom></ContactCom>
         </div>
 
     );

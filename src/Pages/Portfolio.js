@@ -1,12 +1,12 @@
 import React from 'react';
 import './Portfolio.css';
-import Project_com from '../Component/Project_com'
+import ProjectCom from '../Component/ProjectCom'
 
 const Portfolio = () => {
     return (
 
         <div className='portfolio'>
-            <Project_com></Project_com>
+            <ProjectCom></ProjectCom>
         </div>
 
     );

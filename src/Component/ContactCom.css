@@ -1,0 +1,42 @@
+.contact_com{
+    min-height: 100vh;
+}
+
+.heading-p{
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+.heading-p span{
+    font-family: 'Rambla', sans-serif;
+    font-size: 15px;
+    line-height: 1.75em;
+    font-weight: 400;
+    color: #888;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.contact-form textarea:focus-within{
+    border-bottom: 1px solid #F68338;
+}
+.contact-form input:focus-within{
+    border-bottom: 1px solid #F68338;
+}
+.contact-form input,textarea{
+    border: none;
+    width: 40%;
+    /* width: auto; */
+    color: #888;
+    outline: none;
+}
+
+.contact-form textarea{
+width: 83%;
+height: 150px;
+margin-bottom: 30px;
+}

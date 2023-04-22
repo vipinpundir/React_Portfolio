@@ -1,12 +1,12 @@
 import React from 'react';
-import Education_section from '../Component/Education_section';
+import EducationSection from '../Component/EducationSection';
 import './Resume.css';
 
 const Resume = () => {
     return(
 
         <div className='resume'>
-            <Education_section></Education_section>
+            <EducationSection></EducationSection>
         </div>
 
     );

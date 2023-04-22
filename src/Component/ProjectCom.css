@@ -1,0 +1,54 @@
+.project_com{
+    min-height: 100vh;
+
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.projects a{
+    text-decoration: none;
+}
+.project1,
+.project2,
+.project3,
+.project4,
+.project5{
+    width: 48%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4%;
+}
+
+.project1{
+    background-image: url(../Images/project01.jpg);
+}
+.project2{
+    background-image: url(../Images/project02.jpg);
+}
+.project3{
+    background-image: url(../Images/project03.jpg);
+}
+.project4{
+    background-image: url(../Images/project04.jpg);
+}
+.project5{
+    background-image: url(../Images/project05.jpg);
+}
+
+
+.project-text{
+    opacity: 0;
+    height: 180px;
+    background-color: #f68438c3;
+    transition: 0.3s ease-in-out;
+    padding: 20px 0px 0px 10px;
+}
+
+.project-text:hover{
+    opacity: 1;
+}
+

@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className="footer-2">
 
-                <div class="footer-2-1">
+                <div className="footer-2-1">
 
                     <div><h6>LOCATION </h6> <p>Roorkee,INDIA</p></div>
                     <div><h6>E-MAIL </h6> <p>vipinpudir29@gmail.com</p></div>
@@ -33,7 +33,7 @@ const Footer = () => {
 
                 </div>
 
-                <div class="footer-2-2">
+                <div className="footer-2-2">
                     <a  target='blank' href="https://drive.google.com/drive/folders/1CRGX99KMxNVtvz0n2aVMahnI-l9B1TPn?usp=sharing"> <h6>Download CV</h6> </a>
                 </div>
 
