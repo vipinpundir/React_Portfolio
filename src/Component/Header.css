@@ -36,14 +36,14 @@
 
 }
 
-.Navbar li a:hover {
-    border-bottom: 2px solid #F68338;
-   
-}
-
 .Navbar li a {
     color: #888888;
     text-decoration: none;
+}
+
+.Navbar a.active{
+    color: #eeeeee;
+    font-weight: 600;
 }
 
 

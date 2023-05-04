@@ -3,9 +3,10 @@ import './HeaderSection.css';
 import icon1 from '../Images/web-design.png';
 import icon2 from '../Images/developer.png';
 import icon4 from '../Images/responsive-website.png';
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeaderSection = () => {
+
     return (
 
         <div className="main-section">
@@ -13,7 +14,7 @@ const HeaderSection = () => {
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
                 <h1 className="main-heading" >VIPIN PUNDIR</h1>
-                <p>Hi, My name is vipin Pundir. I am a web developer mainly front-end developer.  I have worked in preneurship for two months as an front-end developer and I'm pre final year B.Tech(CSE) student at college of engineering roorkee. </p>
+                <p>Hi, My name is vipin Pundir. I am a web developer mainly front-end developer.  I have worked in preneurship company for two months as an front-end developer intern and I'm pre final year B.Tech(CSE) student at college of engineering roorkee. </p>
             </div>
 
             <div className="name-about">
@@ -32,7 +33,7 @@ const HeaderSection = () => {
 
 
             <div className="btn">  <button type="submit" >  <Link to="/Contact" >Hire Me</Link> </button>  </div>
-            
+
 
             <hr className="hr_tag" />
 
@@ -66,7 +67,7 @@ const HeaderSection = () => {
                     <p> I specialize in creating fully responsive websites and web applications that provide a seamless user experience across all devices. </p>
                 </div>
                 {/* <div className="box-right">
-                    <span> <img src={icon3} alt='' /> </span>
+                    <span> <img src={icon4} alt='' /> </span>
                     <h2>Photography</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi illum perspiciatis quam! Amet at sunt eveniet rem eaque nihil?</p>
                 </div> */}

@@ -5,7 +5,7 @@ import Resume from '../Pages/Resume';
 import Portfolio from '../Pages/Portfolio';
 import Blog from '../Pages/Blog';
 import Contact from '../Pages/Contact';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 
 
 
@@ -19,27 +19,26 @@ const Header = () => {
 
       <div className='container2'>
 
-        <div class="hamburger-menu">
+        <div className="hamburger-menu">
 
           <input id='c' type="checkbox"></input>
-          <div class="hamegurger-lines">
-            <span class="line line1"></span>
-            <span class="line line2"></span>
-            <span class="line line3"></span>
+          <div className="hamegurger-lines">
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line3"></span>
           </div>
 
           <div className='Navbar menu-items'>
             <ul  >
-              <li><Link to="/" >Home</Link></li>
-              <li><Link to="/Resume" >resume</Link></li>
-              <li><Link to="/Portfolio" >projects</Link></li>
-              {/* <li><Link to="/Blog" >blog</Link></li> */}
-              <li><Link to="/Contact" >contact</Link></li>
+              <li><NavLink  to="/" >Home</NavLink></li>
+              <li><NavLink  to="/Resume" >resume</NavLink></li>
+              <li><NavLink  to="/Portfolio" >projects</NavLink></li>
+              <li><NavLink  to="/Contact" >contact</NavLink></li>
+              {/* <li><NavLink to="/Blog" >blog</NavLink></li> */}
             </ul>
           </div>
 
         </div>
-
         <Routes>
           <Route path="/" element={<HeaderSection />} />
           <Route path="/Resume" element={<Resume />} />
