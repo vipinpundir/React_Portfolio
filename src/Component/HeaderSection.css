@@ -117,11 +117,6 @@ html{
     border: 1px solid #222;
 }
 
-/* .box::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
 
 .footer {
     margin-bottom: 70px;

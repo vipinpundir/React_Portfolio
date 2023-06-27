@@ -217,19 +217,10 @@
         margin-left: 0px !important;
     }
 
-    .project1,
-    .project2,
-    .project3,
-    .project4,
-    .project5 {
-        width: auto !important;
+    .project {
+        width: fit-content !important;
         margin-bottom: 18% !important;
     }
-
-    .projects {
-        flex-direction: column;
-    }
-
 
 
     .contact-form input,
@@ -245,6 +236,14 @@
 
 }
 
+@media (max-width: 489px) {
+    .project-inner-img,
+    .project-inner-text,
+    project-text .btn button{
+        width: 100% !important;
+    }
+ 
+}
 
 @media (min-width: 501px) and (max-width: 900px){
 

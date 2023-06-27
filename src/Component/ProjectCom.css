@@ -6,49 +6,45 @@
 .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .projects a{
     text-decoration: none;
-}
-.project1,
-.project2,
-.project3,
-.project4,
-.project5{
-    width: 48%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 4%;
+    
 }
 
-.project1{
-    background-image: url(../Images/project01.jpg);
-}
-.project2{
-    background-image: url(../Images/project02.jpg);
-}
-.project3{
-    background-image: url(../Images/project03.jpg);
-}
-.project4{
-    background-image: url(../Images/project04.jpg);
-}
-.project5{
-    background-image: url(../Images/project05.jpg);
+.project{
+    width: fit-content;
+    border: 1px solid #222;
+    margin-bottom: 4%;
 }
 
 
 .project-text{
-    opacity: 0;
-    height: 180px;
-    background-color: #f68438c3;
-    transition: 0.3s ease-in-out;
-    padding: 20px 0px 0px 10px;
+    padding: 15px ;
 }
-
-.project-text:hover{
-    opacity: 1;
+.project-inner-img{
+    margin-bottom: 20px;
+    height: 200px;
+    width: 19rem;
+    
+}
+.project-inner-text{
+    width: 19rem;    
+    margin-bottom: 10px;
+}
+.project-inner-text h3{
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+.project-inner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.project-text .btn button{
+    width: 19rem;
+    position:static 
 }
 

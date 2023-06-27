@@ -13,7 +13,7 @@ const HeaderSection = () => {
 
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
-                <h1 className="main-heading" >VIPIN PUNDIR</h1>
+                <h1 className="heading1" >VIPIN PUNDIR</h1>
                 <p>Hi, My name is vipin Pundir. I am a web developer mainly front-end developer.  I have worked in preneurship company for two months as an front-end developer intern and I'm pre final year B.Tech(CSE) student at college of engineering roorkee. </p>
             </div>
 
