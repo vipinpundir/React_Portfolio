@@ -4,18 +4,26 @@ import './EducationSection.css';
 const EducationSection = () => {
     return (
         <div id="edu" className="EducationSection_css ">
+
             <div className="EducationSection_head"  >
                 <p className="mini-heading">RESUME</p>
-                <h1 className="main-heading" >EXPERIENCE</h1>
+                <h1 className="main-heading" >INTERNSHIP EXPERIENCE</h1>
             </div>
 
             <div className="EducationSection_container">
 
                 <div className="EducationSection">
-                    <h3 className="main-heading-Edu">FRONTEND DEVELOPER</h3>
+                    <h3 className="main-heading-Edu">Web Development</h3>
+                    <p>Celebal Technologies ( Internship ) </p>
+                    <p>10 June 2023 - 8 August 2023</p>
+                    <p>Remote</p>
+                </div>
+
+                <div className="EducationSection">
+                    <h3 className="main-heading-Edu">FRONTEND Development</h3>
                     <p>Preneurship ( Internship ) </p>
-                    <p>29 April 2022 - 30 june 2022 </p>
-                    <p>work from home</p>
+                    <p>29 April 2022 - 30 June 2022 </p>
+                    <p>Remote</p>
                 </div>
 
             </div>
@@ -23,11 +31,11 @@ const EducationSection = () => {
 
             <hr className="hr_tag" ></hr>
 
-                <div className="EducationSection_head"  >
-                    <p className="mini-heading">RESUME</p>
-                    <h1 className="main-heading" >EDUCATION</h1>
-                </div>
-                
+            <div className="EducationSection_head"  >
+                <p className="mini-heading">RESUME</p>
+                <h1 className="main-heading" >EDUCATION</h1>
+            </div>
+
             <div className="EducationSection_container">
 
                 <div className="EducationSection">
@@ -45,7 +53,7 @@ const EducationSection = () => {
                 </div>
 
 
-                <div className="EducationSection">
+                <div className="EducationSection" id="ak" >
                     <h3 className="main-heading-Edu">SECONDARY SCHOOL</h3>
                     <p>2018</p>
                     <p>R.S.D. Public School, Muzaffarnagar </p>

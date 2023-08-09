@@ -5,13 +5,27 @@ import traimg from '../Images/project02.jpg'
 import libimg from '../Images/project03.jpg'
 import busimg from '../Images/project04.jpg'
 import expimg from '../Images/project05.jpg'
-
+import newsimg from '../Images/project06.jpg'
 
 
 const ProjectCom = () => {
 
 
     const data = [
+        {
+            link: 'https://drive.google.com/drive/folders/1OpBIVZG2YRu1byqvHrvdv07jzcNHzjEe?usp=sharing',
+            title: 'HeadlineHub',
+            desc : 'It is News web developed using React and utilizes the News API service to fetch the news data.',
+            img : newsimg
+
+        },
+        {
+            link: 'https://vipinexpense.netlify.app',
+            title: 'Expense Tracker ',
+            desc : 'This is a Expense Tracker web application developed using HTML, CSS, JS and REACT.',
+            img : expimg
+
+        },
         {
             link: 'https://vipinfoodweb.netlify.app',
             title: 'Restaurant website',
@@ -21,12 +35,12 @@ const ProjectCom = () => {
         {
             link: 'https://vipintravelweb.netlify.app',
             title: 'Travelling website',
-            desc : 'This is a Travelling website developed using HTML, CSS, and JS.',
+            desc : 'This is a Travelling website developed using HTML and CSS.',
             img : traimg
         },
         {
             link: 'https://coerlibrary.netlify.app',
-            title: 'Digital Library website',
+            title: 'Digital Library ',
             desc : 'This is a Digital Library website developed using HTML, CSS, and BOOTSTRAP.',
             img : libimg
         },
@@ -36,13 +50,7 @@ const ProjectCom = () => {
             desc : 'This is a Business website developed using HTML, CSS, and BOOTSTRAP.',
             img : busimg
         },
-        {
-            link: 'https://vipinexpense.netlify.app',
-            title: 'Expense Tracker website',
-            desc : 'This is a Expense Tracker web application developed using HTML, CSS, JS and REACT.',
-            img : expimg
-
-        },
+       
     ]
 
     function card(value,index) {

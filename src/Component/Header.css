@@ -115,37 +115,18 @@
         margin-bottom: 1.2rem;
     }
 
-    /*taki checkbox check hone per items show hone lage*/
-    .hamburger-menu input[type="checkbox"]:checked ~.menu-items {
+    .menu-items {
+        transform: translateX(100%); /* By default, menu-items is at its initial position */
+        transition: transform 0.3s ease; /* Adding a smooth transition effect */
+      }
+      
+    .menu-items-open {
         transform: translateX(0);
-    }
-
+      }
+    
     .menu-items :any-link:hover{
          color:#F68338; /* alter clicked color changed in mobile */
     }
-
-    .hamegurger-lines .line1 {
-        transform-origin: 10% 0%;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .hamegurger-lines .line3 {
-        transform-origin: 20% 100%;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .hamburger-menu input[type="checkbox"]:checked~.hamegurger-lines .line1 {
-        transform: rotate(45deg);
-    }
-
-    .hamburger-menu input[type="checkbox"]:checked~.hamegurger-lines .line2 {
-        display: none;
-    }
-
-    .hamburger-menu input[type="checkbox"]:checked~.hamegurger-lines .line3 {
-        transform: rotate(-45deg);
-    }
-
 
     .hamburger-menu input[type="checkbox"] {
         display: block;

@@ -14,13 +14,13 @@ const HeaderSection = () => {
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
                 <h1 className="heading1" >VIPIN PUNDIR</h1>
-                <p>Hi, My name is vipin Pundir. I am a web developer mainly front-end developer.  I have worked in preneurship company for two months as an front-end developer intern and I'm pre final year B.Tech(CSE) student at college of engineering roorkee. </p>
+                <p>Hello, I'm Vipin Pundir, a passionate front-end web developer dedicated to crafting captivating user experiences. I'm currently pursuing B.Tech in Computer Science and Engineering at the College of Engineering Roorkee. My journey in the world of web development began with 4 months of immersive internships, where I had the opportunity to apply my skills to real-world projects. These experiences ignited my fascination with creating seamless and user-centric websites, driving me to continually explore the latest web technologies. I believe that even a few months of hands-on experience can have a profound impact, and I'm excited to share my journey of growth and learning through my portfolio.</p>
             </div>
 
             <div className="name-about">
                 <span className="name-about-left">
                     <p>E-Mail :  <span>vipinpundir29@gmail.com</span> </p>
-                    <p>Linkedin : <span>vipin-pundir-4ba310219</span> </p>
+                    <p>Linkedin : <span>in/vipinpundir29</span> </p>
                     <p>Degree :  <span>Under Graduate</span> </p>
                 </span>
                 <span className="name-about-right">
