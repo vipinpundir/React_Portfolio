@@ -10,12 +10,6 @@ const Footer = () => {
     return (
         <div className="footer-css">
 
-            {/* <div className="footer-1">
-                <img src={gitlogo} alt='vipin-linkedin-profile' href="https://github.com/vipinpundir" />
-                <img src={linkedinlogo} alt='vipin-linkedin-profile' href="https://www.linkedin.com/in/vipin-pundir-4ba310219/" />
-                <img src={instagramlogo} alt='vipin-instagram-profile' />
-            </div> */}
-
             <div className="footer-1">
                <a className=""  href="https://www.linkedin.com/in/vipin-pundir-4ba310219/" > <img src={linkedinlogo} alt='vipin-linkedin-profile'/>  </a> 
                 <a className="" href="https://github.com/vipinpundir"> <img src={gitlogo} alt='vipin-linkedin-profile'/>  </a>

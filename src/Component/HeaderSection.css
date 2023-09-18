@@ -18,7 +18,19 @@ html{
 .main-section{
     margin-top: 120px;
     min-height: 100vh;
+
+    /* for animation:  ; */
+    opacity: 0;
+    transform: translateX(-200px);
+    animation: fadeIn 1s ease forwards;
 }
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .mini-heading{
     color: #F68338 !important;
     letter-spacing: 2px ;
@@ -75,6 +87,8 @@ html{
     border: 1px solid #F68338;
     margin-bottom: 30px;
     z-index: 0;
+    transition: background-color 0.3s ease, border 0.3s ease;
+
 }
 .btn a{
     color: #fff;
@@ -91,6 +105,7 @@ html{
     line-height: 25px;
     margin-top: 35px;
 }
+
 .box h2{
     margin-bottom: 10px;
 }

@@ -1,5 +1,15 @@
 .ProjectCom{
     min-height: 100vh;
+    /* for animation:  ; */
+    opacity: 0;
+    transform: translateX(-200px);
+    animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .projects{

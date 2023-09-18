@@ -8,6 +8,18 @@
     bottom: 0px;
     font-weight: 400;
     font-size: 15px;
+
+    /* for animation  */
+    opacity: 0;
+    transform: translateY(100px);
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .footer-1 {
@@ -15,16 +27,22 @@
     display: flex;
     align-items: center;
     padding-left: 30px;
-    }
-.footer-1 img{
+}
+
+.footer-1 img {
     width: 35px;
     height: 35px;
-    background-color:  #F68338;
+    background-color: #F68338;
     color: #fff;
     margin: 15px;
     border-radius: 30%;
     object-fit: fill;
     padding: 6px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-1 a:hover img {
+    transform: scale(1.2);
 }
 
 .footer-2 {
@@ -50,17 +68,30 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color:  #F68338;
+    background-color: #F68338;
     width: 35%;
     height: 80px;
+    transition: background-color 0.3s ease, border 0.3s ease;
 }
-.footer-2-2 a{
-text-decoration: none;
+
+.footer-2-2 a {
+    text-decoration: none;
 }
-.footer-css h6{
+.footer-2-2 a:hover h6 {
+    color: #F68338;
+    transform: scale(1.1);
+}
+.footer-2-2:hover {
+    background-color: #191920;
+    border: 1px solid #F68338;
+}
+
+.footer-css h6 {
     color: #fff;
     font-size: 14px;
+    transition: transform 0.3s ease-in-out;
 }
-.footer-css p{
+
+.footer-css p {
     color: #F68338;
 }
