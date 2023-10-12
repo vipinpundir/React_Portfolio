@@ -2,7 +2,7 @@ import React from "react";
 import './Footer.css';
 import gitlogo from '../Images/github.png';
 import linkedinlogo from '../Images/linkedin.png';
-import instagramlogo from '../Images/instagram.png';
+import whatsapplogo from '../Images/whatsapp.svg';
 
 
 
@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="footer-css">
 
             <div className="footer-1">
-               <a className=""  href="https://www.linkedin.com/in/vipin-pundir-4ba310219/" > <img src={linkedinlogo} alt='vipin-linkedin-profile'/>  </a> 
+               <a className=""  href="https://www.linkedin.com/in/vipinpundir29" > <img src={linkedinlogo} alt='vipin-linkedin-profile'/>  </a> 
                 <a className="" href="https://github.com/vipinpundir"> <img src={gitlogo} alt='vipin-linkedin-profile'/>  </a>
-                <a className="" href="https://www.instagram.com/vipin_pundir001/">  <img src={instagramlogo} alt='vipin-instagram-profile' />  </a>
+                <a className="" href="https://wa.me/6398099946">  <img src={whatsapplogo} alt='vipin-whatsapp-profile' />  </a>
             </div>
 
 
