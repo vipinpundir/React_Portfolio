@@ -6,6 +6,7 @@ import libimg from '../Images/project03.jpg'
 import busimg from '../Images/project04.jpg'
 import expimg from '../Images/project05.jpg'
 import newsimg from '../Images/project06.jpg'
+import hackaimg from '../Images/hakathon.jpg'
 
 
 const ProjectCom = () => {
@@ -13,7 +14,7 @@ const ProjectCom = () => {
 
     const data = [
         {
-            link: 'https://drive.google.com/drive/folders/1OpBIVZG2YRu1byqvHrvdv07jzcNHzjEe?usp=sharing',
+            link: 'https://github.com/vipinpundir/headlinehub',
             title: 'HeadlineHub',
             desc : 'It is News web developed using React and utilizes the News API service to fetch the news data.',
             img : newsimg
@@ -25,6 +26,12 @@ const ProjectCom = () => {
             desc : 'This is a Expense Tracker web application developed using HTML, CSS, JS and REACT.',
             img : expimg
 
+        },
+        {
+            link: 'https://coerhackthon.netlify.app/',
+            title: 'COER Hackathon 2k22',
+            desc : 'This is a Hackathon website developed using HTML, CSS, JS and BOOTSTRAP.',
+            img : hackaimg
         },
         {
             link: 'https://vipinfoodweb.netlify.app',
