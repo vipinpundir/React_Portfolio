@@ -1,11 +1,32 @@
 import React from "react";
 import './HeaderSection.css';
-import icon1 from '../Images/web-design.png';
-import icon2 from '../Images/developer.png';
-import icon4 from '../Images/responsive-website.png';
+import desLogo from '../Images/logos/web-design.png';
+import resLogo from '../Images/logos/responsive-website.png';
+import apiLogo2 from '../Images/logos/api2.png';
+import devLogo from '../Images/logos/developer.png';
 import { Link } from "react-router-dom";
+import htmllogo from '../Images/logos/html-5.png'
+import csslogo from '../Images/logos/css-3.png'
+import bootlogo from '../Images/logos/bootstrap.png'
+import jslogo from '../Images/logos/js.png'
+import reactlogo from '../Images/logos/react.png'
+import reduxlogo from '../Images/logos/redux.png'
+import apilogo1 from '../Images/logos/api.png'
+import postlogo from '../Images/logos/postman.svg'
+import gitlogo from '../Images/logos/git.png'
+import githublogo from '../Images/logos/github2.png'
+import nodelogo from '../Images/logos/nodejs.png'
+import pylogo from '../Images/logos/python.png'
 
 const HeaderSection = () => {
+    const skillsLogos = [
+        {img: pylogo, name: "Python"},{img: htmllogo, name: "HTML"},{img: csslogo, name: "CSS"},
+        {img: bootlogo, name: "Bootstrap"},{img: jslogo, name: "JavaScript"},
+        {img: nodelogo, name: "Node.js"},{img: reactlogo, name: "React.js"},
+        {img: reduxlogo, name: "Redux"},{img: gitlogo, name: "Git"},
+        {img: githublogo, name: "GitHub"},{img: apilogo1, name: "API Integration"},
+        {img: postlogo, name: "Postman"}
+    ]
 
     return (
 
@@ -37,6 +58,19 @@ const HeaderSection = () => {
 
             <hr className="hr_tag" />
 
+            <div className="skills">
+                <div className="skills-headings">
+                    <p className="mini-heading">TECHNICAL </p>
+                    <h1 className="main-heading" >SKILLs</h1>
+                </div>
+                <div className="skills-logos">
+                {skillsLogos.map( (logo,index)=>( <li key={index} > <img src={logo.img} alt="skills logo" /> <p>{logo.name}</p> </li> ) )}
+                </div>
+            </div>
+
+            <hr className="hr_tag" />
+
+
             <div className="services">
 
                 <div className="name-section">
@@ -49,12 +83,12 @@ const HeaderSection = () => {
 
             <div className="box">
                 <div className="box-left">
-                    <span> <img src={icon1} alt='' /> </span>
+                    <span> <img src={desLogo} alt='' /> </span>
                     <h2>Web Desing</h2>
                     <p> I am skilled in web designing, with experience in creating visually appealing and user-friendly websites. </p>
                 </div>
                 <div className="box-right">
-                    <span> <img src={icon2} alt='' /> </span>
+                    <span> <img src={devLogo} alt='' /> </span>
                     <h2>Development</h2>
                     <p> Experienced in building and maintaining websites and web applications using HTML, CSS, JavaScript and React js. </p>
                 </div>
@@ -62,15 +96,15 @@ const HeaderSection = () => {
 
             <div className="box">
                 <div className="box-left">
-                    <span> <img src={icon4} alt='' /> </span>
+                    <span> <img src={apiLogo2} alt='' /> </span>
+                    <h2>API Integration</h2>
+                    <p>Proficient in seamlessly integrating third-party APIs to enhance web applications, optimizing performance.</p>
+                </div>
+                <div className="box-right">
+                    <span> <img src={resLogo} alt='' /> </span>
                     <h2>Fully Responsive</h2>
                     <p> I specialize in creating fully responsive websites and web applications that provide a seamless user experience across all devices. </p>
                 </div>
-                {/* <div className="box-right">
-                    <span> <img src={icon4} alt='' /> </span>
-                    <h2>Photography</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi illum perspiciatis quam! Amet at sunt eveniet rem eaque nihil?</p>
-                </div> */}
             </div>
 
             <hr className="hr_tag" />

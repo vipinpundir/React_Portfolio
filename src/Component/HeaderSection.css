@@ -100,6 +100,34 @@ html{
     border: 1px solid #F68338;
 }
 
+
+.skills-logos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills-logos li{
+    list-style: none;
+    height: 120px;
+    width: 100px;
+    padding: 10px;
+    /* box-shadow: 0px 0px 2px 0px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills-logos img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+
+
+
 .box {
     text-align: center;
     line-height: 25px;

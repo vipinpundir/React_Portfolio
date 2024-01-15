@@ -1,8 +1,8 @@
 import React from "react";
 import './Footer.css';
-import gitlogo from '../Images/github.png';
-import linkedinlogo from '../Images/linkedin.png';
-import whatsapplogo from '../Images/whatsapp.svg';
+import gitlogo from '../Images/logos/github.png';
+import linkedinlogo from '../Images/logos/linkedin.png';
+import whatsapplogo from '../Images/logos/whatsapp.svg';
 
 
 

@@ -1,12 +1,12 @@
 import React from 'react'
 import './ProjectCom.css'
-import resimg from '../Images/project01.jpg'
-import traimg from '../Images/project02.jpg'
-import libimg from '../Images/project03.jpg'
-import busimg from '../Images/project04.jpg'
-import expimg from '../Images/project05.jpg'
-import newsimg from '../Images/project06.jpg'
-import hackaimg from '../Images/hakathon.jpg'
+import resimg from '../Images/projects/resto.jpg'
+import traimg from '../Images/projects/trav.jpg'
+import libimg from '../Images/projects/lib.jpg'
+import busimg from '../Images/projects/bus.jpg'
+import expimg from '../Images/projects/expen.jpg'
+import newsimg from '../Images/projects/news.jpg'
+import hackaimg from '../Images/projects/hakathon.jpg'
 
 
 const ProjectCom = () => {
@@ -64,7 +64,7 @@ const ProjectCom = () => {
         return (
             <div className="project" key={index} >
                 <div className='project-text'>
-                    .<div className='project-inner-img' >
+                    <div className='project-inner-img' >
                      <img src={value.img} alt='' />
                     </div>
                     <div className='project-inner-text'>
