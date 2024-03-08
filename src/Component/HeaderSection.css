@@ -61,14 +61,15 @@ html{
     flex-direction: row;
 }
 
+.name-about a{
+    text-decoration: none;
+    color: #888888;
+}
 .name-about p {
     color: #ffffff;
     font-weight: bold;
     margin-bottom: 20px;
 
-}
-.name-about span {
-    color: #888888;
 }
 
 .name-about-right {

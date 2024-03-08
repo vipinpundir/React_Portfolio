@@ -17,15 +17,27 @@ import gitlogo from '../Images/logos/git.png'
 import githublogo from '../Images/logos/github2.png'
 import nodelogo from '../Images/logos/nodejs.png'
 import pylogo from '../Images/logos/python.png'
+import sqllogo from '../Images/logos/mysql.png'
+import mongologo from '../Images/logos/mongo.png'
+import expresslogo from '../Images/logos/express-js.png'
 
 const HeaderSection = () => {
     const skillsLogos = [
-        {img: pylogo, name: "Python"},{img: htmllogo, name: "HTML"},{img: csslogo, name: "CSS"},
-        {img: bootlogo, name: "Bootstrap"},{img: jslogo, name: "JavaScript"},
-        {img: nodelogo, name: "Node.js"},{img: reactlogo, name: "React.js"},
-        {img: reduxlogo, name: "Redux"},{img: gitlogo, name: "Git"},
-        {img: githublogo, name: "GitHub"},{img: apilogo1, name: "API Integration"},
-        {img: postlogo, name: "Postman"}
+        { img: pylogo, name: "Python" }, 
+        { img: htmllogo, name: "HTML" }, 
+        { img: csslogo, name: "CSS" },
+        { img: bootlogo, name: "Bootstrap" }, 
+        { img: jslogo, name: "JavaScript" },
+        { img: reactlogo, name: "React.js" },
+        { img: reduxlogo, name: "Redux" }, 
+        { img: gitlogo, name: "Git" },
+        { img: githublogo, name: "GitHub" }, 
+        { img: postlogo, name: "Postman" }, 
+        { img: apilogo1, name: "API Integration" },
+        { img: nodelogo, name: "Node.js" },
+        { img: expresslogo, name: "Express.js" }, 
+        { img: sqllogo, name: "MySQL" },
+        { img: mongologo, name: "MongoDB" }, 
     ]
 
     return (
@@ -40,8 +52,8 @@ const HeaderSection = () => {
 
             <div className="name-about">
                 <span className="name-about-left">
-                    <p>E-Mail :  <span>vipinpundir29@gmail.com</span> </p>
-                    <p>Linkedin : <span>in/vipinpundir29</span> </p>
+                    <p>E-Mail :  <span><a href="mailto:vipinpundir29@gmail.com">vipinpundir29@gmail.com</a></span> </p>
+                    <p>Linkedin : <span> <a href="https://www.linkedin.com/in/vipinpundir29">in/vipinpundir29</a></span> </p>
                     <p>Degree :  <span>Under Graduate</span> </p>
                 </span>
                 <span className="name-about-right">
@@ -64,7 +76,7 @@ const HeaderSection = () => {
                     <h1 className="main-heading" >SKILLs</h1>
                 </div>
                 <div className="skills-logos">
-                {skillsLogos.map( (logo,index)=>( <li key={index} > <img src={logo.img} alt="skills logo" /> <p>{logo.name}</p> </li> ) )}
+                    {skillsLogos.map((logo, index) => (<li key={index} > <img src={logo.img} alt="skills logo" /> <p>{logo.name}</p> </li>))}
                 </div>
             </div>
 
