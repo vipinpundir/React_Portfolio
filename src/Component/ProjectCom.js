@@ -23,7 +23,7 @@ const ProjectCom = () => {
 
         },
         {
-            link: 'https://elearning360.netlify.app',
+            link: 'https://learnhub360.netlify.app',
             title: 'E-Learning',
             desc : 'E-Learning web application developed using the MERN Stack with Socket.IO.',
             img : elearimg

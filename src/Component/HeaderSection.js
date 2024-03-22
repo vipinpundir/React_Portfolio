@@ -1,9 +1,9 @@
 import React from "react";
 import './HeaderSection.css';
-import desLogo from '../Images/logos/web-design.png';
-import resLogo from '../Images/logos/responsive-website.png';
-import apiLogo2 from '../Images/logos/api2.png';
-import devLogo from '../Images/logos/developer.png';
+// import desLogo from '../Images/logos/web-design.png';
+// import resLogo from '../Images/logos/responsive-website.png';
+// import apiLogo2 from '../Images/logos/api2.png';
+// import devLogo from '../Images/logos/developer.png';
 import { Link } from "react-router-dom";
 import htmllogo from '../Images/logos/html-5.png'
 import csslogo from '../Images/logos/css-3.png'
@@ -80,9 +80,9 @@ const HeaderSection = () => {
                 </div>
             </div>
 
-            <hr className="hr_tag" />
+            {/* <hr className="hr_tag" /> */}
 
-
+{/* 
             <div className="services">
 
                 <div className="name-section">
@@ -117,7 +117,7 @@ const HeaderSection = () => {
                     <h2>Fully Responsive</h2>
                     <p> I specialize in creating fully responsive websites and web applications that provide a seamless user experience across all devices. </p>
                 </div>
-            </div>
+            </div> */}
 
             <hr className="hr_tag" />
 
