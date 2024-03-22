@@ -66,8 +66,17 @@
         width: 100%;
     }
 
-    .footer-css {
+    .footer-css .footer-2 {
         display: none;
+    }
+    .footer-css {
+        position: absolute;
+        top: 50%;
+        left: -50px;
+        opacity: 0.6 !important;
+    }
+    .footer-css .footer-1 {
+        flex-direction: column;
     }
 
     .main-section,
