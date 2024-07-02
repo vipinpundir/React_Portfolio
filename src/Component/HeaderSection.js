@@ -20,6 +20,9 @@ import pylogo from '../Images/logos/python.png'
 import sqllogo from '../Images/logos/mysql.png'
 import mongologo from '../Images/logos/mongo.png'
 import expresslogo from '../Images/logos/express-js.png'
+import nextjslogo from '../Images/logos/nextjs.png'
+import tslogo from '../Images/logos/typescript.png'
+import taillogo from '../Images/logos/tailwind.png'
 
 const HeaderSection = () => {
     const skillsLogos = [
@@ -27,8 +30,11 @@ const HeaderSection = () => {
         { img: htmllogo, name: "HTML" }, 
         { img: csslogo, name: "CSS" },
         { img: bootlogo, name: "Bootstrap" }, 
+        { img: taillogo, name: "Tailwind CSS" }, 
         { img: jslogo, name: "JavaScript" },
+        { img: tslogo, name: "TypeScript" },
         { img: reactlogo, name: "React.js" },
+        { img: nextjslogo, name: "Next.js" },
         { img: reduxlogo, name: "Redux" }, 
         { img: gitlogo, name: "Git" },
         { img: githublogo, name: "GitHub" }, 
@@ -47,14 +53,14 @@ const HeaderSection = () => {
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
                 <h1 className="heading1" >VIPIN PUNDIR</h1>
-                <p>Hi, I'm Vipin Pundir, a dedicated and innovative Front-End Developer with a passion for creating responsive, user-friendly web applications. Currently pursuing a Bachelor of Technology in Computer Science Engineering at the College of Engineering Roorkee, I have hands-on experience with HTML, CSS, JavaScript, React, Node.js, and more. My journey includes impactful internships at Celebal Technologies, Preneurship Company, and AST Consulting, where I honed my skills in React development and contributed to various successful projects.</p>
+                <p>Hi, I'm Vipin Pundir, a dedicated and innovative Front-End Developer with a passion for creating responsive, user-friendly web applications. Currently pursuing a Bachelor of Technology in Computer Science Engineering at the College of Engineering Roorkee, I have hands-on experience with HTML, CSS, JavaScript, React, Node.js, and more.</p>
             </div>
 
             <div className="name-about">
                 <span className="name-about-left">
                     <p>E-Mail :  <span><a href="mailto:vipinpundir29@gmail.com">vipinpundir29@gmail.com</a></span> </p>
                     <p>Linkedin : <span> <a href="https://www.linkedin.com/in/vipinpundir29">in/vipinpundir29</a></span> </p>
-                    <p>Degree :  <span>Under Graduate</span> </p>
+                    <p>Degree :  <span>Bachelor of Technology (B.Tech)</span> </p>
                 </span>
                 <span className="name-about-right">
                     <p>Phone :  <span>6398099946</span> </p>

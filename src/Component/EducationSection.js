@@ -13,13 +13,6 @@ const EducationSection = () => {
             <div className="EducationSection_container">
 
                 <div className="EducationSection">
-                    <h3 className="main-heading-Edu">React.js Developer</h3>
-                    <p>AST Consulting ( Internship )</p>
-                    <p>22 April, 2024 - 31 May, 2024</p>
-                    <p>Noida, Uttar Pradesh, India · Remote</p>
-                </div>
-
-                <div className="EducationSection">
                     <h3 className="main-heading-Edu">Web Development</h3>
                     <p>Celebal Technologies ( Internship ) </p>
                     <p>10 June, 2023 - 08 August, 2023</p>
