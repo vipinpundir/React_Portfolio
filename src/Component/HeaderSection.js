@@ -1,9 +1,5 @@
 import React from "react";
 import './HeaderSection.css';
-// import desLogo from '../Images/logos/web-design.png';
-// import resLogo from '../Images/logos/responsive-website.png';
-// import apiLogo2 from '../Images/logos/api2.png';
-// import devLogo from '../Images/logos/developer.png';
 import { Link } from "react-router-dom";
 import htmllogo from '../Images/logos/html-5.png'
 import csslogo from '../Images/logos/css-3.png'
@@ -26,24 +22,24 @@ import taillogo from '../Images/logos/tailwind.png'
 
 const HeaderSection = () => {
     const skillsLogos = [
-        { img: pylogo, name: "Python" }, 
-        { img: htmllogo, name: "HTML" }, 
+        { img: pylogo, name: "Python" },
+        { img: htmllogo, name: "HTML" },
         { img: csslogo, name: "CSS" },
-        { img: bootlogo, name: "Bootstrap" }, 
-        { img: taillogo, name: "Tailwind CSS" }, 
+        { img: bootlogo, name: "Bootstrap" },
+        { img: taillogo, name: "Tailwind CSS" },
         { img: jslogo, name: "JavaScript" },
         { img: tslogo, name: "TypeScript" },
         { img: reactlogo, name: "React.js" },
         { img: nextjslogo, name: "Next.js" },
-        { img: reduxlogo, name: "Redux" }, 
+        { img: reduxlogo, name: "Redux" },
         { img: gitlogo, name: "Git" },
-        { img: githublogo, name: "GitHub" }, 
-        { img: postlogo, name: "Postman" }, 
+        { img: githublogo, name: "GitHub" },
+        { img: postlogo, name: "Postman" },
         { img: apilogo1, name: "API Integration" },
         { img: nodelogo, name: "Node.js" },
-        { img: expresslogo, name: "Express.js" }, 
+        { img: expresslogo, name: "Express.js" },
         { img: sqllogo, name: "MySQL" },
-        { img: mongologo, name: "MongoDB" }, 
+        { img: mongologo, name: "MongoDB" },
     ]
 
     return (
@@ -70,9 +66,7 @@ const HeaderSection = () => {
 
             </div>
 
-
             <div className="btn">  <button type="submit" >  <Link to="/Contact" >Hire Me</Link> </button>  </div>
-
 
             <hr className="hr_tag" />
 
@@ -86,50 +80,10 @@ const HeaderSection = () => {
                 </div>
             </div>
 
-            {/* <hr className="hr_tag" /> */}
-
-{/* 
-            <div className="services">
-
-                <div className="name-section">
-                    <p className="mini-heading">WHAT I DO</p>
-                    <h1 className="main-heading" >SERVICES</h1>
-                </div>
-
-            </div>
-
-
-            <div className="box">
-                <div className="box-left">
-                    <span> <img src={desLogo} alt='' /> </span>
-                    <h2>Web Desing</h2>
-                    <p> I am skilled in web designing, with experience in creating visually appealing and user-friendly websites. </p>
-                </div>
-                <div className="box-right">
-                    <span> <img src={devLogo} alt='' /> </span>
-                    <h2>Development</h2>
-                    <p> Experienced in building and maintaining websites and web applications using HTML, CSS, JavaScript and React js. </p>
-                </div>
-            </div>
-
-            <div className="box">
-                <div className="box-left">
-                    <span> <img src={apiLogo2} alt='' /> </span>
-                    <h2>API Integration</h2>
-                    <p>Proficient in seamlessly integrating third-party APIs to enhance web applications, optimizing performance.</p>
-                </div>
-                <div className="box-right">
-                    <span> <img src={resLogo} alt='' /> </span>
-                    <h2>Fully Responsive</h2>
-                    <p> I specialize in creating fully responsive websites and web applications that provide a seamless user experience across all devices. </p>
-                </div>
-            </div> */}
-
             <hr className="hr_tag" />
 
             <div className="footer"><p> &copy; 2022 <span className="name">Vipin</span> . All Rights Reserved.</p></div>
         </div>
-
 
     );
 }

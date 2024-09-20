@@ -9,6 +9,7 @@ import newsimg from '../Images/projects/news.jpg'
 import hackaimg from '../Images/projects/hakathon.jpg'
 import elearimg from '../Images/projects/e-lear.png'
 import chatimg from '../Images/projects/chat.png'
+import workmanagerimg from '../Images/projects/work-manager.jpg'
 
 
 const ProjectCom = () => {
@@ -16,59 +17,76 @@ const ProjectCom = () => {
 
     const data = [
         {
-            link: 'https://fordeploymentchat-app.onrender.com',
+            liveLink: 'https://work-manager-seven.vercel.app/',
+            gitLink: 'https://github.com/vipinpundir/work-manager',
+            title: 'Work Manager',
+            desc : 'Work Manager is a full-stack  web application built with Next.js and TypeScript.',
+            img : workmanagerimg
+            
+        },
+        {
+            liveLink: 'https://fordeploymentchat-app.onrender.com',
+            gitLink: 'https://github.com/vipinpundir/chat-app',
             title: 'Chat Application',
             desc : 'Real-time chat application developed using the MERN Stack with Socket.IO.',
             img : chatimg
-
+            
         },
         {
-            link: 'https://learnhub360.netlify.app',
+            liveLink: 'https://learnhub360.netlify.app',
+            gitLink: 'https://github.com/vipinpundir/MERN-LearningPlatform',
             title: 'E-Learning',
             desc : 'E-Learning web application developed using the MERN Stack with Socket.IO.',
             img : elearimg
 
         },
         {
-            link: 'https://github.com/vipinpundir/headlinehub',
+            liveLink: 'https://github.com/vipinpundir/headlinehub',
+            gitLink: 'https://github.com/vipinpundir/headlinehub',
             title: 'HeadlineHub',
             desc : 'News web application developed using React, utilizing the News API service for fetching data.',
             img : newsimg
 
         },
         {
-            link: 'https://vipinexpense.netlify.app',
-            title: 'Expense Tracker ',
-            desc : 'Web app for tracking expenses, developed using HTML, CSS, JavaScript, and React.',
+            liveLink: 'https://github.com/vipinpundir/todo-app',
+            gitLink: 'https://github.com/vipinpundir/todo-app',
+            title: 'ToDo Web Application',
+            desc : 'To-Do Web Application, developed using HTML, CSS, JavaScript, and React.',
             img : expimg
 
         },
         {
-            link: 'https://coerhackthon.netlify.app/',
+            liveLink: 'https://coerhackthon.netlify.app/',
+            gitLink: 'https://github.com/vipinpundir/hackmaster',
             title: 'COER Hackathon 2k22',
             desc : 'Hackathon website developed using HTML, CSS, JavaScript, and Bootstrap.',
             img : hackaimg
         },
         {
-            link: 'https://vipinfoodweb.netlify.app',
+            liveLink: 'https://vipinfoodweb.netlify.app',
+            gitLink: 'https://github.com/vipinpundir/Restaurant-Web',
             title: 'Restaurant website',
             desc : 'Restaurant website developed using HTML, CSS, and JavaScript.',
             img : resimg
         },
         {
-            link: 'https://vipintravelweb.netlify.app',
+            liveLink: 'https://vipintravelweb.netlify.app',
+            gitLink: 'https://github.com/vipinpundir/Trave-Web',
             title: 'Travelling website',
             desc : 'Traveling website developed using HTML, CSS and JavaScript.',
             img : traimg
         },
         {
-            link: 'https://coerlibrary.netlify.app',
+            liveLink: 'https://coerlibrary.netlify.app',
+            gitLink: 'https://github.com/vipinpundir/college-e-library',
             title: 'Digital Library ',
             desc : ' Digital Library website developed using HTML, CSS, and Bootstrap.',
             img : libimg
         },
         {
-            link: 'https://vipinbusinessweb.netlify.app',
+            liveLink: 'https://vipinbusinessweb.netlify.app',
+            gitLink: 'https://github.com/vipinpundir/Business-Web',
             title: 'Business website',
             desc : 'Business website developed using HTML, CSS, and Bootstrap.',
             img : busimg
@@ -87,8 +105,8 @@ const ProjectCom = () => {
                         <h3> {value.title} </h3>
                         <p> {value.desc} </p>
                     </div>
-                    <div className="btn">  <button type="submit" > <a  href={value.link}>View Project</a> </button>  </div>
-
+                    <div className="btn">  <button type="submit" > <a target='blank' href={value.liveLink}>Live Link</a> </button>  </div>
+                    <div className="btn btn2">  <button type="submit" > <a target='blank' href={value.gitLink}>Github Link</a> </button>  </div>
                     
                 </div>
             </div>
