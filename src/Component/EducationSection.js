@@ -7,11 +7,17 @@ const EducationSection = () => {
 
             <div className="EducationSection_head"  >
                 <p className="mini-heading">RESUME</p>
-                <h1 className="main-heading" >INTERNSHIP EXPERIENCE</h1>
+                <h1 className="main-heading" >EXPERIENCE</h1>
             </div>
 
             <div className="EducationSection_container">
 
+                <div className="EducationSection">
+                    <h3 className="main-heading-Edu">Front-end Developer</h3>
+                    <p>RDCPL Pvt Ltd. </p>
+                    <p>September, 2024 - Present</p>
+                    <p>Patna, Bihar, India · Remote</p>
+                </div>
                 <div className="EducationSection">
                     <h3 className="main-heading-Edu">Web Development</h3>
                     <p>Celebal Technologies ( Internship ) </p>

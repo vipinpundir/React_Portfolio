@@ -49,7 +49,7 @@ const HeaderSection = () => {
             <div className="name-section">
                 <p className="mini-heading">WEB DEVELOPER</p>
                 <h1 className="heading1" >VIPIN PUNDIR</h1>
-                <p>Hi, I'm Vipin Pundir, a dedicated and innovative Front-End Developer with a passion for creating responsive, user-friendly web applications. Currently pursuing a Bachelor of Technology in Computer Science Engineering at the College of Engineering Roorkee, I have hands-on experience with HTML, CSS, JavaScript, React, Node.js, and more.</p>
+                <p className="mt-10">Hi, I'm Vipin Pundir, a dedicated and innovative Front-End Developer with a passion for creating responsive, user-friendly web applications. I hold a Bachelor of Technology in Computer Science Engineering from the College of Engineering Roorkee, graduating in 2024. With hands-on experience in HTML, CSS, JavaScript, React, Node.js, and more, I specialize in building scalable and high-performance web applications. Currently working as a Frontend Developer, I am continuously expanding my skill set, including deployment on AWS and backend development with Django and Node.js</p>
             </div>
 
             <div className="name-about">
