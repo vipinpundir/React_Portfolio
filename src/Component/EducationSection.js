@@ -21,7 +21,7 @@ const EducationSection = () => {
                 <div className="EducationSection">
                     <h3 className="main-heading-Edu">Web Development</h3>
                     <p>Celebal Technologies ( Internship ) </p>
-                    <p>June, 2023 - October , 2023</p>
+                    <p>June, 2023 - August, 2023</p>
                     <p>Jaipur, Rajasthan, India · Remote</p>
                 </div>
 
