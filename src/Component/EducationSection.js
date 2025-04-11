@@ -15,7 +15,7 @@ const EducationSection = () => {
                 <div className="EducationSection">
                     <h3 className="main-heading-Edu">Front-end Developer</h3>
                     <p>RDCPL Pvt Ltd. </p>
-                    <p>September, 2024 - Present</p>
+                    <p>May, 2024 - Present</p>
                     <p>Patna, Bihar, India · Remote</p>
                 </div>
                 <div className="EducationSection">
