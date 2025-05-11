@@ -66,9 +66,12 @@ const HeaderSection = () => {
 
             </div>
 
-            <div className="btn">  <button type="submit" >  <Link to="/Contact" >Hire Me</Link> </button>  </div>
-
-            <hr className="hr_tag" />
+            <div className="main-btns">
+                {/* <div className="btn">  <button  >  <Link to="contact" >Hire Me</Link> </button>  </div> */}
+                <div className="cv-btn">
+                    <a target='blank' href="https://drive.google.com/drive/folders/1CRGX99KMxNVtvz0n2aVMahnI-l9B1TPn?usp=sharing"> <h6>Download CV</h6> </a>
+                </div>
+            </div>
 
             <div className="skills">
                 <div className="skills-headings">
@@ -79,10 +82,6 @@ const HeaderSection = () => {
                     {skillsLogos.map((logo, index) => (<li key={index} > <img src={logo.img} alt="skills logo" /> <p>{logo.name}</p> </li>))}
                 </div>
             </div>
-
-            <hr className="hr_tag" />
-
-            <div className="footer"><p> &copy; 2022 <span className="name">Vipin</span> . All Rights Reserved.</p></div>
         </div>
 
     );

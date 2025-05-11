@@ -16,23 +16,6 @@ const Footer = () => {
                 <a className="" href="https://wa.me/6398099946">  <img src={whatsapplogo} alt='vipin-whatsapp-profile' />  </a>
             </div>
 
-
-            <div className="footer-2">
-
-                <div className="footer-2-1">
-
-                    <div><h6>LOCATION </h6> <p>Roorkee,INDIA</p></div>
-                    <div><h6>E-MAIL </h6> <p>vipinpudir29@gmail.com</p></div>
-                    <div><h6>PHONE </h6> <p>+91 6398099946</p></div>
-
-                </div>
-
-                <div className="footer-2-2">
-                    <a  target='blank' href="https://drive.google.com/drive/folders/1CRGX99KMxNVtvz0n2aVMahnI-l9B1TPn?usp=sharing"> <h6>Download CV</h6> </a>
-                </div>
-
-            </div>
-
         </div>
     );
 }

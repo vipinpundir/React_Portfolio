@@ -4,7 +4,7 @@ import './ContactCom.css';
 
 const ContactCom = () => {
     return (
-        <div className='ContactCom'>
+        <div className='ContactCom' id='contact'>
             <p className='mini-heading'>LOCATION</p>
             <h1 className="main-heading"> CONTACT ME</h1>
             <p>If you’d like to talk about a project, our work or anything else then get in touch.</p>
@@ -12,10 +12,10 @@ const ContactCom = () => {
             <p className='heading-p'>Phone : <span>6398099946</span> </p>
             <p className='heading-p'>Email : <span>vipinpundir29@gmail.com</span> </p>
             <p className='heading-p'>Address : <span>Roorkee, Uttarakhand, India , Pin Code:-247667</span> </p>
-            <hr className='hr_tag'></hr>
+            <br /> <br />
             <p className='heading-p'>Get in touch</p>
 
-            <form  action="https://formspree.io/f/xzbwdonz" method="POST" >
+            <form action="https://formspree.io/f/xzbwdonz" method="POST" >
 
                 <div className='contact-form' >
                     <input type="text" name='Name' placeholder='Full Name' required ></input>

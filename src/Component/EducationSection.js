@@ -3,7 +3,7 @@ import './EducationSection.css';
 
 const EducationSection = () => {
     return (
-        <div id="edu" className="EducationSection_css ">
+        <div id="resume" className="EducationSection_css">
 
             <div className="EducationSection_head"  >
                 <p className="mini-heading">RESUME</p>
@@ -15,7 +15,7 @@ const EducationSection = () => {
                 <div className="EducationSection">
                     <h3 className="main-heading-Edu">Front-end Developer</h3>
                     <p>RDCPL Pvt Ltd. </p>
-                    <p>May, 2024 - Present</p>
+                    <p>May, 2024 - April, 2025</p>
                     <p>Patna, Bihar, India · Remote</p>
                 </div>
                 <div className="EducationSection">
@@ -27,8 +27,6 @@ const EducationSection = () => {
 
             </div>
 
-
-            <hr className="hr_tag" ></hr>
 
             <div className="EducationSection_head"  >
                 <p className="mini-heading">RESUME</p>
@@ -60,11 +58,6 @@ const EducationSection = () => {
                 </div>
 
             </div>
-
-            <hr className="hr_tag" ></hr>
-
-            <div className="footer"><p> &copy; 2022 <span className="name">Vipin</span> . All Rights Reserved.</p></div>
-
 
         </div>
     );

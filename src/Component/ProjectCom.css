@@ -1,5 +1,5 @@
 .ProjectCom{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* for animation:  ; */
     opacity: 0;
     transform: translateX(-200px);
@@ -15,7 +15,8 @@
 .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: ; */
+    margin-bottom: 20px;
 }
 .projects a{
     text-decoration: none;
@@ -23,9 +24,9 @@
 }
 
 .project{
-    width: fit-content;
+    width: 25%;
     border: 1px solid #222;
-    margin-bottom: 4%;
+    /* margin-bottom: 4%; */
 }
 
 

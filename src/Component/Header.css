@@ -1,4 +1,4 @@
-.header-img-css {
+/* .header-img-css {
     position: fixed;
     background: linear-gradient(rgba(10, 0, 0, 0.300), rgba(0, 0, 0, 0.433)), url(../Images/logos/vipin2.jpeg);
     width: 37%;
@@ -8,10 +8,95 @@
     background-position: center center;
     background-size: cover;
     z-index: 100;
+} */
+.container1 {
+    position: fixed;
+    width: 27%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #191919;
+    display: flex;
 }
 
+.profile-card {
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 10px #f6843842;
+    margin: auto 12px;
+    background-color: #F68338;
+}
+
+.profile-card:hover {
+    box-shadow: 0 4px 20px #f6843842;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #191919;
+}
+
+.role {
+    color: #191919;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: #191919;
+    margin-bottom: 20px;
+}
+
+.connect-text {
+    font-size: 12px;
+    color: #191919;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    display: inline-block;
+    /* background: #fff; */
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3);
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+
 .container2 {
-    width: 63%;
+    width: 73%;
     background-color: #191919;
     float: right;
     padding: 50px;
@@ -25,7 +110,7 @@
     top: 0px;
     background-color: #191919;
     font-size: 15px;
-    width: 63%;
+    width: 73%;
     z-index: 6;
 }
 
@@ -42,9 +127,26 @@
     text-decoration: none;
 }
 
-.Navbar a.active{
+.Navbar a:hover {
     color: #eeeeee;
-    font-weight: 600;
+    /* font-weight: 600; */
+}
+
+.top-arrow{
+    position: fixed;
+    background: #00000065;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 100;
+    font-size: 24px;
+    color: #F68338;
+    text-decoration: none;
 }
 
 
@@ -69,12 +171,14 @@
     .footer-css .footer-2 {
         display: none;
     }
+
     .footer-css {
         position: absolute;
         top: 50%;
         left: -50px;
         opacity: 0.6 !important;
     }
+
     .footer-css .footer-1 {
         flex-direction: column;
     }
@@ -127,16 +231,19 @@
     }
 
     .menu-items {
-        transform: translateX(100%); /* By default, menu-items is at its initial position */
-        transition: transform 0.3s ease; /* Adding a smooth transition effect */
-      }
-      
+        transform: translateX(100%);
+        /* By default, menu-items is at its initial position */
+        transition: transform 0.3s ease;
+        /* Adding a smooth transition effect */
+    }
+
     .menu-items-open {
         transform: translateX(0);
-      }
-    
-    .menu-items :any-link:hover{
-         color:#F68338; /* alter clicked color changed in mobile */
+    }
+
+    .menu-items :any-link:hover {
+        color: #F68338;
+        /* alter clicked color changed in mobile */
     }
 
     .hamburger-menu input[type="checkbox"] {
@@ -191,7 +298,7 @@
     .container1 {
         height: 80vh;
     }
-  
+
 
     .container2 {
         padding: 50px 20px;
@@ -205,6 +312,7 @@
     .box-left {
         width: auto !important;
     }
+
     .name-about-right {
         margin-left: 0px !important;
     }
@@ -224,20 +332,24 @@
         text-align: center;
         margin-bottom: 10px !important;
     }
+    .skills-logos{
+    justify-content: center;
+}
 
 
 }
 
 @media (max-width: 489px) {
+
     .project-inner-img,
     .project-inner-text,
-    project-text .btn button{
+    project-text .btn button {
         width: 100% !important;
     }
- 
+
 }
 
-@media (min-width: 501px) and (max-width: 900px){
+@media (min-width: 501px) and (max-width: 900px) {
 
 
     .header-img-css {

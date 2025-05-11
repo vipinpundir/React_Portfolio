@@ -116,18 +116,13 @@ const ProjectCom = () => {
 
 
     return (
-        <div className='ProjectCom'>
+        <div className='ProjectCom ' id='portfolio'>
             <p className='mini-heading'>TAKE A LOOK AT</p>
             <h1 className='main-heading'>PROJECTS</h1>
 
             <div className="projects">
                 {data.map(card)}
             </div>
-
-            <hr className='hr_tag'></hr>
-
-
-            <div className="footer"><p> &copy; 2022 <span className="name">Vipin</span> . All Rights Reserved.</p></div>
 
         </div>
 

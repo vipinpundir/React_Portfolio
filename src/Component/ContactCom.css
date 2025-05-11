@@ -1,5 +1,4 @@
 .ContactCom{
-    min-height: 100vh;
     /* for animation:  ; */
     opacity: 0;
     transform: translateX(-200px);
@@ -29,7 +28,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 .contact-form textarea:focus-within{
     border-bottom: 1px solid #F68338;

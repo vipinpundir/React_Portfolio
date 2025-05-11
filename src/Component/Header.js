@@ -1,77 +1,93 @@
-import React, { useState } from 'react';
-import './Header.css';
-import HeaderSection from './HeaderSection';
-import Resume from '../Pages/Resume';
-import Portfolio from '../Pages/Portfolio';
-// import Blog from '../Pages/Blog';
-import Contact from '../Pages/Contact';
-import { Routes, Route, NavLink } from "react-router-dom";
-import { useWindowScroll } from "@uidotdev/usehooks";
-
-
+import React, { useState } from "react";
+import "./Header.css";
+import HeaderSection from "./HeaderSection";
+import ProjectCom from "./ProjectCom";
+import ContactCom from "./ContactCom";
+import EducationSection from "./EducationSection";
+import vipinPic from "../Images/logos/vipin2.jpeg";
+import gitlogo from "../Images/logos/github.png";
+import linkedinlogo from "../Images/logos/linkedin.png";
+import whatsapplogo from "../Images/logos/whatsapp.svg";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [, scrollTo] = useWindowScroll();
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
-  const handleScrollTo = () =>{
-    if(window.innerWidth < 901 ){
-      scrollTo({ left: 0, top: 540, behavior: "smooth" })}
-    }
-  
 
   return (
-    <div className='header-css'>
-      <div className='header-img-css container1' >
+    <div className="header-css">
+      {/* redirect to top  */}
+      <a href="/" className="top-arrow">↑</a>
+      {/* <div className="header-img-css container1">
+      </div> */}
+      <div className="container1">
+        <div class="profile-card">
+          <div class="card-header">
+            <img src={vipinPic} alt="Maria Telma" class="profile-img" />
+          </div>
+          <h2 class="name">Vipin Pundir</h2>
+          <p class="role">Frontend Web Developer</p>
+          <p class="description">
+            I'm a web developer passionate about creating dynamic websites and
+            web applications.
+          </p>
+          <p class="connect-text">connect with me</p>
+          <div class="social-icons">
+            <a className="" href="https://www.linkedin.com/in/vipinpundir29">
+              {" "}
+              <img src={linkedinlogo} alt="vipin-linkedin-profile" />{" "}
+            </a>
+            <a className="" href="https://github.com/vipinpundir">
+              {" "}
+              <img src={gitlogo} alt="vipin-linkedin-profile" />{" "}
+            </a>
+            <a className="" href="https://wa.me/6398099946">
+              {" "}
+              <img src={whatsapplogo} alt="vipin-whatsapp-profile" />{" "}
+            </a>
+          </div>
+        </div>
       </div>
 
-      <div className='container2'>
-
-        <div onClick={toggleMenu} className="hamburger-menu">
-
-          <input id='c' type="checkbox"></input>
+      <div className="container2">
+        <div className="hamburger-menu">
+          <input
+            onClick={() => setMenuOpen(!menuOpen)}
+            id="c"
+            type="checkbox"
+          ></input>
           <div className="hamegurger-lines">
             <span className="line line1"></span>
             <span className="line line2"></span>
             <span className="line line3"></span>
           </div>
 
-          <div className={`Navbar ${menuOpen ? 'menu-items-open' : 'menu-items'}`}>
-            <ul  >
-              <li onClick={() => scrollTo({ left: 0, top: 0, behavior: "smooth" })} >
-                <NavLink to="/" onClick={toggleMenu}>Home</NavLink>
+          <div
+            className={`Navbar ${menuOpen ? "menu-items-open" : "menu-items"}`}
+          >
+            <ul>
+              <li>
+                <a href="/">Home</a>
               </li>
-              <li onClick={handleScrollTo} >
-                <NavLink to="/Resume" onClick={toggleMenu}>resume</NavLink>
+              <li>
+                <a href="#resume">resume</a>
               </li>
-              <li onClick={handleScrollTo} >
-                <NavLink to="/Portfolio" onClick={toggleMenu}>projects</NavLink>
+              <li>
+                <a href="#portfolio">projects</a>
               </li>
-              <li onClick={handleScrollTo} >
-                <NavLink to="/Contact" onClick={toggleMenu}>contact</NavLink>
+              <li>
+                <a href="#contact">contact</a>
               </li>
-              {/* <li><NavLink to="/Blog" >blog</NavLink></li> */}
+              {/* <li>< a href="/Blog" >blog</a></li> */}
             </ul>
           </div>
-
         </div>
-        <Routes>
-          <Route path="/" element={<HeaderSection />} />
-          <Route path="/Resume" element={<Resume />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          {/* <Route path="/Blog" element={<Blog />} /> */}
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
 
+        <HeaderSection />
+        <EducationSection />
+        <ProjectCom />
+        <ContactCom />
       </div>
-
     </div>
-
   );
-}
+};
 
 export default Header;

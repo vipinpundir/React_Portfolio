@@ -76,8 +76,13 @@ html{
     margin-left: 150px;
 }
 
+/* .main-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+} */
 .btn button {
-    padding: 8px 20px;
+    padding: 9px 20px;
     cursor: pointer;
     background: #F68338;
     position: relative;
@@ -106,11 +111,38 @@ html{
 }
 
 
+.cv-btn {
+    padding: 5px 20px;
+    cursor: pointer;
+    background: #F68338;
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid #F68338;
+    margin-bottom: 40px;
+    z-index: 0;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+.cv-btn a {
+    text-decoration: none;
+}
+.cv-btn a:hover h6 {
+    color: #F68338;
+}
+.cv-btn:hover {
+    background-color: #191920;
+    border: 1px solid #F68338;
+}
+
+
 .skills-logos{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-bottom: 10px;
 }
 
 .skills-logos li{
