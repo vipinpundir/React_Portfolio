@@ -2,7 +2,8 @@
     font-size: 15px;
     line-height: 25px;
     color: #888888;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    margin: 20px auto;
     /* for animation:  ; */
     opacity: 0;
     transform: translateX(-200px);

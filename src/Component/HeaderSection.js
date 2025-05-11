@@ -1,6 +1,5 @@
 import React from "react";
 import './HeaderSection.css';
-import { Link } from "react-router-dom";
 import htmllogo from '../Images/logos/html-5.png'
 import csslogo from '../Images/logos/css-3.png'
 import bootlogo from '../Images/logos/bootstrap.png'
